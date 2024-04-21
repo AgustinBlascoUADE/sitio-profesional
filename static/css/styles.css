@@ -40,7 +40,7 @@ main {
 }
 
 .sobre-nosotros {
-    background: url("static/img/header-image.jpg") center;
+    background: url("../img/header-image.jpg") center;
     background-size: cover;
     height: 40rem;
     display: flex;
@@ -104,19 +104,19 @@ h2 {
 }
 
 .principio-mision {
-    background-image:url("static/img/mision.jpg");
+    background-image:url("../img/mision.jpg");
     background-size: cover;
     height: 20rem;
 }
 
 .principio-vision {
-    background: url("static/img/vision.jpg");
+    background: url("../img/vision.jpg");
     background-size: cover;
     height: 20rem;
 }
 
 .principio-valores {
-    background: url("static/img/valores.jpg");
+    background: url("../img/valores.jpg");
     background-size: cover;
     height: 20rem;
 }
