@@ -1,0 +1,240 @@
+* { 
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+main {
+    padding-top: 140px;
+}
+
+.container {
+    background-color: #EEE ;
+}
+
+.logo {
+    width: 100px;
+    margin-left: 10px;
+} 
+
+.main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+    border-top: 5px black solid;
+}
+
+.main-header img {
+    width: 200px;
+}
+
+.main-header a:link{
+    font-size: 20px;
+}
+
+.main-menu li {
+    display: inline;
+    font-size: 20px;
+}
+
+.sobre-nosotros {
+    background-image:url("/static/img/header-image.jpg");
+    height: 40rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sobre-nosotros p {
+    color: white;
+    padding: 30px;
+    font-size: 20px;
+}
+
+h2, h3 {
+    color: #003366;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    padding-left: 1rem;
+}
+
+.nosotros-text {
+    margin: 20px;
+}
+
+.img-container {
+    display: flex;
+    justify-content: space-between;
+    border: 2px black;
+}
+
+.header-image {
+    max-width: 300px;
+    margin-bottom: 10px;
+}
+
+.principios-titulo {
+    margin: 20px 0;
+    color: #003366;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 20px 20px 20px;
+    gap: 10px;
+    justify-content: center;
+}
+   
+.flex-container .principio {
+    flex: 1 0 200px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px #0000001a;
+}
+
+.principio-mision {
+    background-image:url("https://source.unsplash.com/600x600/?coding");
+    height: 20rem;
+}
+
+.principio-vision {
+    background-image:url("https://source.unsplash.com/600x600/?datacenter");
+    height: 20rem;
+}
+
+.principio-valores {
+    background-image:url("https://source.unsplash.com/600x600/?technology");
+    height: 20rem;
+}
+
+.imagen {
+    margin-bottom: 20px;
+}
+
+.flex-container .principio h3 {
+margin-top: 0; 
+color: #003366;
+}
+
+.flex-container .principio p {
+color: #333; /* Color del texto */
+}
+
+@media (max-width: 768px) {
+    .flex-container .principio {
+        flex-basis: 100%;
+    }
+
+    .flex-container .principio img {
+        margin: auto;
+    }
+}
+
+.principio h3 {
+    text-align: center;
+    color: #003366;
+}
+
+.principio p {
+    text-align: justify;
+}
+
+ul {
+    list-style: none;
+}
+
+/* li {
+    display: inline;
+    font-size: 20px;
+} */
+
+a:link {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+a:visited {
+    color: #000
+}
+
+a:hover{
+    color: #003366;
+}
+
+
+a:active {
+    color: #003366;
+}
+
+.nav-link {
+    margin-right: 30px;
+}
+
+footer {
+    border-bottom: 5px solid black;
+}
+
+@media (min-width: 768px) {
+    .main-header{
+        position: fixed;
+        width: 1200px;
+        margin-bottom: 200px;
+        background-color: white;
+        border-top: 5px black solid;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .logo {
+        margin-left: 0;
+    }
+    .main-header{
+        display: block;
+        background-color: white;
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    .main-header li {
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    main {
+        padding: 10px;
+    }
+}
+
+
+.flex-container .servicios {
+    flex: 1 0 200px;
+    padding: 20px;
+    background-color: #EEE;
+    border-radius: 10px;
+}
+
+.servicios:hover{
+    box-shadow: 0 2px 4px #0000005b;
+    background-color: #fff;
+}
+
+footer li {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
